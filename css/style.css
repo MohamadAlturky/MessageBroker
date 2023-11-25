@@ -1,0 +1,185 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.red {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 200px;
+    width: 60px;
+    height: 60px;
+}
+
+.red:hover {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    transition: all 0.9s;
+    transform: rotate(90deg);
+
+    .word {
+        transition: all .45s;
+        transform: rotate(90deg);
+    }
+}
+
+/* The animation code */
+@keyframes example {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+/* The element to apply the animation to */
+.go {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.red {
+    background-color: aquamarine;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+
+
+@keyframes example {
+    0% {
+        opacity: 0.8;
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        opacity: 0.7;
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        opacity: 0.5;
+
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        opacity: 0.2;
+
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        opacity: 0;
+
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.red:hover {
+    background-color: black;
+    transition: all 1s;
+    width: 150px;
+    color: aquamarine;
+    height: 150px;
+    font-size: 35px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    transform: rotate(360deg);
+    /* transform: translateY(25px); */
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+.red:hover .word {
+    transition: all 1s;
+    transform: rotate(-360deg);
+}
+
+/* The element to apply the animation to */
+.go {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+}
+
+
+body {
+    background-color: black;
+}

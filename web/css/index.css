@@ -1,0 +1,14 @@
+        div{
+            background-color: rgb(255, 0, 0);
+            color: yellow;
+            width: 100px;
+            height: 100px;
+            padding: 100px;
+            border-radius: 500px;
+            cursor: pointer;
+border: 50px solid blue;
+font-size: 25px;
+        }
+        body{
+            margin: 15px;
+        }

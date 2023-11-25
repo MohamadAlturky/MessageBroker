@@ -1,0 +1,38 @@
+.hhh{
+    height: 1000px;
+}
+.blue{
+    height: 100px;
+    background-color: blue;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: beige;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding-top: 50px;
+}
+.hby{
+    height: 300px;
+    width: 300px;
+    margin: 100px;
+    background-color: red;
+    border-radius: 1000px;
+    text-align: center;
+    font-style: oblique;
+    color: blanchedalmond;
+    position: relative;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rr{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
